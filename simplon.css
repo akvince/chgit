@@ -1,22 +1,30 @@
 body {
   background-color: lightgray;
-color: #black;
+  color: #black;
 }
 
 h1 {
-font-size: 2.188em;
+  font-size: 2.188em;
 }
 
 section {
-position: sticky;
-border-radius: 20px;
-margin-left: 1%;
-margin-right: 2%;
-bottom: auto;
-border: solid black 5px;
-padding-left: 1%;
- color: black;
- font-size: 1.750em;
+  position: sticky;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 2%;
+  bottom: auto;
+  border: solid black 5px;
+  padding-left: 1%;
+  color: black;
+  font-size: 1.750em;
+}
+
+code {
+  border-radius: 5px;
+  background-color : black;
+  color : lightgray;
+  font-style: italic;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px)
@@ -26,7 +34,7 @@ body {
 }
 
 h1 {
-font-size: 3.1875em;
+  font-size: 3.1875em;
 }
 h2{
   font-size: 2.8em;
@@ -37,7 +45,7 @@ h3{
 }
 
 p {
-font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 li {
