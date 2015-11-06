@@ -1,31 +1,31 @@
-body {
-  background-color: lightgray;
-  color: #black;
-}
+  body {
+    background-color: lightgray;
+    color: #black;
+  }
 
-h1 {
-  font-size: 2.188em;
-}
+  h1 {
+    font-size: 2.188em;
+  }
 
-section {
-  position: sticky;
-  border-radius: 20px;
-  margin-left: 1%;
-  margin-right: 2%;
-  bottom: auto;
-  border: solid black 5px;
-  padding-left: 1%;
-  color: black;
-  font-size: 1.750em;
-}
+  section {
+    position: sticky;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 2%;
+    bottom: auto;
+    border: solid black 5px;
+    padding-left: 1%;
+    color: black;
+    font-size: 1.750em;
+  }
 
-code {
-  border-radius: 5px;
-  background-color : black;
-  color : lightgray;
-  font-style: italic;
-  font-weight: bold;
-}
+  code {
+    border-radius: 5px;
+    background-color : black;
+    color : lightgray;
+    font-style: italic;
+    font-weight: bold;
+  }
 
 @media screen and (max-width: 600px)
 {
